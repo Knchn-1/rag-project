@@ -88,7 +88,8 @@ Answer:"""
         model="gemini-2.5-flash",
         contents=prompt
     )
-    return response.text
+    return response
+
 
 # ── STEP 7: Interactive Chat Loop ────────────────────────────
 print("\n" + "="*50)
